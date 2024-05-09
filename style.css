@@ -47,7 +47,7 @@ body {
 #imgBox {
   border-radius: 5px;
   width: 200px;
-  max-height: 0;
+  max-height:0;
   overflow: hidden;
   transition: max-height 1s;
 }
@@ -66,16 +66,16 @@ body {
 
 @keyframes shake {
   0% {
-    transform: translateX();
+    transform: translateX(0);
   }
   25% {
-    transform: translateX();
+    transform: translateX(-2px);
   }
   50% {
-    transform: translateX();
+    transform: translateX(0);
   }
   75% {
-    transform: translateX();
+    transform: translateX(2px);
   }
   100%{
     transform: translateX();
